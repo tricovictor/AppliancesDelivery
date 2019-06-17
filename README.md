@@ -49,5 +49,3 @@ DevelopmentUY
 # Author Information
 
 Victor Torterola
-=======
-# AppliancesDelivery
