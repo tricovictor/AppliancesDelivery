@@ -42,6 +42,10 @@ To simply test the process and not add it to cron we can execute:  php artisan u
 
 Test users user1 up to user5 were created with the password "12345678"
 
+## Add pages for scraping
+
+For now it does not have an admin role, so the URLs must be added in the table "urls".
+
 # License
 
 DevelopmentUY

@@ -16,7 +16,7 @@ Route::get('/', [
 ]);
 Route::get('articles/index', ['uses' => 'ArticleController@index', 'as' => 'articles.index']);
 
-Route::get('/scraping', 'ScrappingController@reading');
+//Route::get('/scraping', 'ScrappingController@reading'); ##route test scraping (disabled in production)
 
 
 Route::get('logout', 'ArticleController@index')->name('logout');
