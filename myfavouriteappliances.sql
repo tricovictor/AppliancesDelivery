@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 18, 2019 at 02:42 PM
+-- Generation Time: Jun 18, 2019 at 03:35 PM
 -- Server version: 5.7.26-0ubuntu0.18.04.1
 -- PHP Version: 7.3.6-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -797,15 +797,6 @@ CREATE TABLE `carts` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `carts`
---
-
-INSERT INTO `carts` (`id`, `user_id`, `article_id`, `created_at`, `updated_at`) VALUES
-(1, 1, 1903, '2019-06-16 22:54:44', '2019-06-16 22:54:44'),
-(2, 1, 1835, '2019-06-16 22:54:50', '2019-06-16 22:54:50'),
-(3, 2, 1835, '2019-06-16 22:55:25', '2019-06-16 22:55:25');
 
 -- --------------------------------------------------------
 
@@ -3792,7 +3783,7 @@ ALTER TABLE `articles`
 -- AUTO_INCREMENT for table `carts`
 --
 ALTER TABLE `carts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `categories`
 --
@@ -3802,7 +3793,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `friend`
 --
 ALTER TABLE `friend`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `migrations`
 --
