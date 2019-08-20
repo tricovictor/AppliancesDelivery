@@ -14,7 +14,7 @@ This is a test project of a scraping website from another website. The articles 
 
 ## Create Database
 
-You can enter your phpmyadmin and execute the attached script that recreates the database. You can also run the migrations from the root directory of the project with the "php artisan make: migration" command
+You can enter your phpmyadmin and execute the attached script that recreates the database. You can also run the migrations from the root directory of the project with the "php artisan migrate" command
 
 ## Copy project to your local machine or server
 
